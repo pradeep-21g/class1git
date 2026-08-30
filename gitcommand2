@@ -1,0 +1,230 @@
+ uname -a
+ hostname
+ exit
+ lsb_release
+ uname -s
+ uname -a
+ uname -r
+ uname
+ exit
+ uname -a
+ top
+ ps
+ top | '{$1}'
+ top | grep |awk '{print $1}'
+ awk '{print $1}' top
+ ls -lrt
+ cd /
+ pwd
+ ls -lrt
+ cd /home/prade/
+ ls -lrt
+ top > test
+ ls -lrt
+ cat test
+ awk '{print $1}' test
+ clear
+ top
+ sudo apt install python3
+ python3 --version
+ sudo apt install -y dotnet-sdk-8.0
+ vi main.py
+ python3 main.py
+ ps -ef |grep python
+ java
+ sudo apt install openjdk-25-jre-headless
+ java --version
+ vi Hello.java
+ clear
+ ls -lrt
+ java Hello.java
+ python main.py
+ python3 main.py
+ java Hello.java
+ python3 main.py
+ ps -ef |grep python
+ timeout 5m python3 main.py &
+ jobs
+ ps -ef |grep python
+ timeout 5m python3 main.py
+ ps -ef |grep python
+ timeout 5m python3 main.py &
+ sleep 300 &
+ ps -ef |grep -i 1932
+ clear
+ java Hello.java
+ python3 main.py
+ sleep 60
+ sleep 60 &
+ ps -ef |grep sleep*
+ ps -ef |grep sleep*
+ exit
+ hosnamectl
+ hostnamectl
+ cd
+ sudo apt update
+ sudo apt install git
+ git --version
+ git clone https://github.com/pradeep-21g/devopsclass.git
+ ls -lrt
+ cd devopsclass/
+ ls
+ ls -a
+ mkdir calc
+ cd calc/
+ touch test1.py
+ touch test2.py
+ touch test3.py
+ ls
+ ls -a
+ cd ..
+ ls -a
+ git init
+ rm -rf .git/
+ git init
+ cd calc/
+ touch module
+ git status
+ cd ..
+ touch pra.py
+ git status
+ ls -a
+ rm -rf .git/
+ ls -a
+ git status
+ git init
+ ls -a
+ git status
+ ls -lrt
+ git add calc/
+ git status
+ git rm --cached calc
+ git -r rm --cached calc
+ git rm --cached -r calc
+ git status
+ git add calc/
+ git status
+ git commit -m "adding calc fold"
+ git config --global user.name pradeep-21g
+ git config --global user.mail pradeep.21g@gmail.com
+ git commit -m "adding calc fold"
+ git status
+ git remote -v
+ git remote add origin https://github.com/pradeep-21g/devopsclass.git
+ git remote -v
+ git push
+ git config --list
+ git push -f
+ git push
+ git config --list
+ git push --set-upstream origin master
+ git remote -v
+ git push -f
+ git status
+ cd calc/
+ ls -lrt
+ pwd
+ exit
+ hostnamectl
+ git --version
+ git clone https://github.com/pradeep-21g/class1git.git
+ ls -lrt
+ cd class1git/
+ pwd
+ mkdir calc
+ cd calc/
+ touch add.py
+ touch sub.py
+ touch mul.py
+ touch div.py
+ ls -lrt
+ ls -a
+ cd ..
+ ls -a
+ git status
+ cd calc/
+ touch modular.py
+ git status
+ cd ..
+ touch prade.py
+ ls -lrt
+ git status
+ rm -rf .git
+ ls -a
+ git status
+ git init
+ ls -a
+ git status
+ git add calc/
+ git status
+ git rm --cached calc/
+ git rm --cached -r calc/
+ git status
+ git add calc/
+ git status
+ git commit -m "addind calc"
+ git status
+ git push
+ git config --global user.name pradeep-21g
+ git config --global user.mail pradeep.21g@gmail.com
+ git remote -v
+ git remote add origin https://github.com/pradeep-21g/class1git.git
+ git remote -v
+ git push
+ git --configlist
+ git config --list
+ git push -f
+ git push --set-upstream origin master
+ push -f
+ git status
+ git add prade.py
+ git status
+ git commit -m "pradefile"
+ git status
+ git commit -m "prafile"
+ git status
+ ls -lrt
+ vi prade.py
+ git status
+ git commit -m "pramod"
+ git push
+ git status
+ git add prade.py
+ git commit -m "pramod"
+ git status
+ git log
+ ls -lrt
+ git pull
+ ls -lrt
+ git status
+ git pull --rebase origin master
+ git status
+ ls -lrt
+ git pull
+ git branch
+ git checkout Branch1-Addition
+ git brnach
+ git branch
+ ls
+ cd calc/
+ ls -lrt
+ vi add.py
+ git status
+ git add
+ git add .
+ git status
+ git commit -m "Addition logic"
+ git push
+ git branch
+ git checkout Branch2-Subraction
+ git branch
+ ls -lrt
+ vi sub.py
+ git add .
+ git commit -m "subraction logic"
+ git push
+ cd ..
+ history > git_commands
+ view git_commands
+ history | awk '{$1="";print}'
+ history | awk '{$1="";print}' > gitcommand2
