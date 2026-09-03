@@ -1,4 +1,2 @@
-a=10
-b=25
-c=a-b
-print(c)
+def subtract(a, b):
+    return a - b
